@@ -4,7 +4,7 @@
 ## Description
 A 5 day forecaster that will also give current weather values for your city search.
 
-![app_image](assets/images/mockuip.png)
+![app_image](assets/images/mockup.png)
 
 ## Table of Contents
 - [Installation](#installation)
