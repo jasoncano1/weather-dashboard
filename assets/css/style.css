@@ -34,6 +34,16 @@ button{
     margin-top: 10px;
 }
 
+#historyDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+#historyDiv button {
+    background: lightgray;
+    color: black;
+}
+
 main{
     width: 70%;
     display: flex;
@@ -53,6 +63,30 @@ main{
 }
 
 #currentDiv p{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+#forecastDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 15%;
+    background: lightblue;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.card h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p{
     font-size: 1.2rem;
     margin: 0;
 }
